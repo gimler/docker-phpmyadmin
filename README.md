@@ -3,7 +3,7 @@
 It contains only phpmyadmin and can be use as docker data container and [nginx](https://hub.docker.com/_/nginx/) and [php-fpm](https://hub.docker.com/_/php/) for example.
 
 [![Build Status](https://travis-ci.org/gimler/docker-phpmyadmin.svg?branch=master)](https://travis-ci.org/gimler/docker-phpmyadmin)
-[![](https://badge.imagelayers.io/gimler/phpmyadmin:latest.svg)](https://imagelayers.io/?images=gimler/phpmyadmin:latest 'Get your own badge on imagelayers.io')
+[![](https://images.microbadger.com/badges/image/gimler/phpmyadmin.svg)](https://microbadger.com/images/gimler/phpmyadmin "Get your own image badge on microbadger.com")
 [![Docker Stars](https://img.shields.io/docker/stars/gimler/phpmyadmin.svg)](https://hub.docker.com/r/gimler/phpmyadmin/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/gimler/phpmyadmin.svg)](https://hub.docker.com/r/gimler/phpmyadmin/)
 
