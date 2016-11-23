@@ -15,10 +15,19 @@ it is heavy inspired by the official docker image [phpmyadmin/docker](https://gi
 
 Your php container should include the following extensions installed:
 
- * zip
  * bz2
- * mbstring
+ * curl
+ * ctype
+ * gd
+ * json
  * mysqli
+ * mbstring
+ * opcache
+ * openssl
+ * session
+ * xml
+ * zlib
+ * zip
 
 ## Environment variables summary
 
