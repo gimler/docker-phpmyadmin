@@ -1,5 +1,6 @@
-FROM alpine
-MAINTAINER Gordon Franke <info@nevalon.de>
+FROM alpine:3.6
+
+LABEL maintainer="Gordon Franke <info@nevalon.de>"
 
 RUN apk add --update wget ca-certificates
 
