@@ -6,7 +6,7 @@ RUN apk add --update wget ca-certificates
 
 WORKDIR /opt/phpmyadmin
 
-RUN PHPMYADMIN_VERSION=4.8.0.1 && \
+RUN PHPMYADMIN_VERSION=4.8.2 && \
     wget -O- https://files.phpmyadmin.net/phpMyAdmin/${PHPMYADMIN_VERSION}/phpMyAdmin-${PHPMYADMIN_VERSION}-all-languages.tar.gz | tar -xzf - \
         && mv phpMyAdmin-${PHPMYADMIN_VERSION}-all-languages/* . \
         && rm -rf phpMyAdmin-${PHPMYADMIN_VERSION}-all-languages \
