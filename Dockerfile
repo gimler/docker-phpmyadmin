@@ -1,12 +1,12 @@
-FROM alpine:3.21.2
+FROM alpine:3.22.2
 
 LABEL maintainer="Gordon Franke <info@nevalon.de>"
 
-RUN apk add --update wget ca-certificates
+RUN apk add --update wget=1.25.0-r1 ca-certificates=20250911-r0
 
 WORKDIR /opt/phpmyadmin
 
-RUN PHPMYADMIN_VERSION=5.2.2 && \
+RUN PHPMYADMIN_VERSION=5.2.3 && \
     wget -O- https://files.phpmyadmin.net/phpMyAdmin/${PHPMYADMIN_VERSION}/phpMyAdmin-${PHPMYADMIN_VERSION}-all-languages.tar.gz | tar -xzf - \
         && mv phpMyAdmin-${PHPMYADMIN_VERSION}-all-languages/* . \
         && rm -rf phpMyAdmin-${PHPMYADMIN_VERSION}-all-languages \
