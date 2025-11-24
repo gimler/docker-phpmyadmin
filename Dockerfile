@@ -1,4 +1,4 @@
-FROM alpine:3.21.2
+FROM alpine:3.22.2
 
 LABEL maintainer="Gordon Franke <info@nevalon.de>"
 
