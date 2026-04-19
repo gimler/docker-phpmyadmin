@@ -2,7 +2,7 @@ FROM alpine:3.23.4
 
 LABEL maintainer="Gordon Franke <info@nevalon.de>"
 
-RUN apk add --update wget=1.25.0-r1 ca-certificates=20250911-r0
+RUN apk add --update wget=1.25.0-r1 ca-certificates=20260413-r0
 
 WORKDIR /opt/phpmyadmin
 
